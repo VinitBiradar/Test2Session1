@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<string.h>
+
 void input_string(char string[] ,char substring[]){
     printf("Enter the string\n");
     scanf("%s",string);

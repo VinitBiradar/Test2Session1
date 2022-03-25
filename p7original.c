@@ -25,7 +25,8 @@ void find_lenght(line *l){
 void output(line *l){
     printf("The length of the line is %f",l->distance);
 }
-int main(){
+int main() 
+{
     line l;
     l=input_line();
     find_lenght(&l);

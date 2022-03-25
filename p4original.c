@@ -16,9 +16,7 @@ int find_fibo(int n)
   a[1]=1;
   for(i=2;i<=n;i++)
   {
-    a[i]=a[i-1]+a[i-2];
-    
-    
+    a[i]=a[i-1]+a[i-2]; 
   }
   return a[n];
 }
@@ -27,7 +25,6 @@ void output(int n,int fibo)
 {
   printf("The %dth term of the fibonacci series is: %d",n,fibo);
 }
-
 int main()
 {
   int n,result;

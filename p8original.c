@@ -53,7 +53,8 @@ void find_perimeter(int n ,polygon *p){
 void output(polygon *p){
         printf("the pimeter of the polygone is %f",p->perimeter);
 }
-int main(){
+int main() 
+{
     int n;
     polygon p;
     n=input_n();

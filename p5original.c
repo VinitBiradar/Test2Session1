@@ -1,12 +1,12 @@
 #include<stdio.h>
 #include<math.h>
-int input_array_size(){
+int input_array_size() 
+{
     int n;
     printf("Enter the Number of elements to be checked\n");
     scanf("%d",&n);
     return n;
 }
-
 void erotosthenes_sieve(int n, int a[n]){
     for(int i=2;i<=sqrt(n);i++){
         if(a[i]==0){
